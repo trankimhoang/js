@@ -1,0 +1,89 @@
+*{margin: 0; padding: 0;}
+
+.nutlentren {
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    padding: 11px;
+    cursor: pointer;
+}
+
+h2.chuto {
+    color: firebrick;
+    font-family: fantasy;
+    font-size: 90px;
+    margin-left: 100px;
+    padding-top: 24px;
+}
+
+.sova,.sage,.reyna,.jett,.phoenix {
+    height: 800px;
+    background-image: url(images/sova2.jpg);
+    background-size: cover;
+}
+
+.phoenix {
+    background-image: url(images/phoenix1.jpg);
+}
+
+.sova {}
+
+.jett {
+    background: url(images/jett1.jpg);
+    background-size: cover;
+}
+
+.reyna {
+    background-image: url(images/reyna1.jpg);
+    background-size: cover;
+}
+
+.sage {
+    height: 800px;
+    background-image: url(images/sage.jpg);
+    background-size: cover;
+}
+
+.noidung1,.noidung2,.noidung3,.noidung4,.noidung5 {
+    height: 80px;
+    padding: 50px 0;
+    text-align: center;
+    color: darkgrey;
+}
+
+.home {
+    width: 100%;
+    height: 800px;
+    background: url(images/valorant.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.menutren ul {
+    margin-left: 35%;
+}
+
+.menutren a {
+    text-decoration: none;
+    display: block;
+    padding: 16px 20px;
+    color: darkorange;
+    font-family: inherit;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+nav.menutren {
+    width: 100%;
+    height: 57px;
+    background: grey;
+    margin: auto;
+    position: fixed;
+    top: 0px;
+}
+
+.menutren ul li {
+    float: left;
+    list-style: none;
+}
+
